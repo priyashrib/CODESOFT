@@ -1,0 +1,53 @@
+/* Container for the Education Section */
+#section7 {
+    padding: 2rem;
+    background-color: #080427;
+    text-shadow: 0px 0px 25px #f8f8fc;
+}
+
+/* Heading for the Education Section */
+#section7 .heading {
+    font-size: 2.5rem;
+    color: rgb(241, 241, 246); /* Set the color of the main heading to blue */
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Subheadings for School and College */
+#section7 .sub-heading {
+    font-size: 1.75rem;
+    color: rgb(240, 240, 242); /* Set the color of subheadings to blue */
+    margin-bottom: 1rem;
+    position: right;
+    padding-left: 2.5em; /* Add space for the bullet */
+    text-align: center;
+}
+
+#section7 .sub-heading::before {
+    content: '•'; /* Bullet character */
+    position: center;
+    left: 0;
+    color: rgb(241, 241, 248); /* Bullet color */
+    font-size: 1.5rem; /* Bullet size */
+    line-height: 1; /* Align bullet vertically */
+    text-shadow: 0px 0px 25px #f8f8fc;
+}
+
+/* Education Details */
+#section7 .education-detail h4 {
+    content: '•'; /* Bullet character */
+    position: left;
+    font-size: 1.5rem;
+    color: rgb(244, 244, 249); /* Set the color of school and college names to blue */
+    margin-left: 0.5rem;
+    text-align: center;
+}
+
+#section7 .education-detail p {
+    content: '•'; /* Bullet character */
+    position: right;
+    font-size: 1.25rem;
+    color: rgb(244, 244, 245); /* Set the color of percentage and CGPA details to blue */
+    margin: 0.25rem 0;
+    text-align: center;
+}
